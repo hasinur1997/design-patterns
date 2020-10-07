@@ -3,21 +3,8 @@ namespace Factory;
 
 class ShapeFactory {
 
-    public function getShape($shapeType)
+    public function getShape(Shape $shape)
     {
-        switch($shapeType)
-        {
-            case 'CIRCLE':
-               return new Circle();
-
-            case 'SQUARE':
-                return new Square();
-
-            case 'RECTANGLE': 
-                return new Rectangle();
-
-            default: 
-                return null;
-        }   
+        return $shape;
     }
 }

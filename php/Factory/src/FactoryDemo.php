@@ -12,8 +12,8 @@ class FactoryDemo {
     {
         $shape = new ShapeFactory;
 
-        $shape->getShape('CIRCLE')->draw();
-        $shape->getShape('SQUARE')->draw();
-        $shape->getShape('RECTANGLE')->draw();    
+        $shape->getShape(new Circle)->draw();
+        $shape->getShape(new Square)->draw();
+        $shape->getShape(new Rectangle)->draw();    
     }
 }
