@@ -1,0 +1,14 @@
+{
+    "name": "hasinur/builder",
+    "authors": [
+        {
+            "name": "Hasinur Rahman",
+            "email": "hasinurrahman3@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Builder\\": "app/"
+        }
+    }
+}
